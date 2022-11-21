@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+* {
+    margin: 5px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One';
+}
+
+body {
+    text-align: center;
+}
+
+.head {
+    border: 10px;
+    background: #82F5A8;
+}
+
+.infouser {
+    background: #FFEF8A;
+}
+
+.footer {
+    background: #FFEF8A;
+}
+
+head
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#008037;
+    color: aliceblue;
+    box-shadow: 5px 5px 0 #000;
+    padding: 2px o;
+}
+
+/*-----------------------------------------------------------*/
+
+.imgcabecera{               /* MANEJANDO IMAGEN DE LA CABECERA*/
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 0%;
+    padding-left: 0%;
+}
+
+#platanopedia_unidad1-1{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0%;
+}
+
+#Subtitulo{
+    padding: top 0%; ;
+    padding-bottom: 20px;
+}
+
+/*------------------------------------------------------------*/
+
+.content{                   /* CONTENIDO DEL DIV 'content' +*/
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: bisque;
+}
+
+/*--------------------------------------------------------------*/
+.imagenes{
+    text-align: center;
+    width: 100%;
+    border: 3px solid #4c881a;
+}
+
+#platanopedia_unidad1-1{
+    border: 0px;
+}
+/*--------------------------------------------------------------*/
+
+section{                            /* MODIFICO LA CAJA DEL QUIZZ */
+    border: 2px solid #90e24d;
+    background-color: beige;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label{                              /* MODIFICO LAS OPCIONES DE RESPUESTA*/
+    display: block;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px dashed #4c881a;
+    margin-bottom: 3px;
+}
+
+label:hover{                        /* MODIFICO LAS OPCIONES DE RESPUESTA CUANDO LES PASA EL CURSOR ENCIMA */
+    background-color: #caf7a5;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.botoncomprobar{                             /* MODIFICO EL TÓN DE COMPROBAR RESPUESTA*/
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(142, 165, 42);
+    border: 3px dashed #4c881a;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.sig{
+    border: 2px #008037;
+    background: #FFEF8A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 0 #000;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sig:hover{
+    transform: scale(1.1);
+}
+
+button:hover{                       /* MODIFICO EL BOTÓN DE COMPROBAR CUANDO LE PASA EL CURSOR ENCIMA*/
+    background: #90e24d;
+    color: rgb(66, 136, 45);
+    transform: 0.5s;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+h2{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+h3{                                 /* MODIFICANDO EL ESTILO DE LOS TÍTULOS CON h3 */
+    font-style: italic;
+    color:  #008037;
+
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+/* clases que se aplicará cuando haya acertada la opcion  */
+.opcion .nombreAcertada{
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+/* clases que se aplicaran cuando se equivoque en la opcion elegida */
+.opcion .nombreNoAcertada{
+    background-color: darkred;
+    color: #fff;
+}
+
+.labelAcertada{
+    background-color: #008037;
+    color: #fff;
+}
+
+.labelNoAcertada{
+    background-color: darkred;
+    color: #fff;
+}
+
+.labelSeleccionada{
+    background-color: #90e24d;
+    color: #fff;
+}
+
+.labelNoSeleccionada{
+    background-color: white;
+    color: black;
+}
